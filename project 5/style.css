@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  background: rgb(164, 215, 238);
+}
+.container {
+  margin: 2rem 2rem;
+}
+button {
+  border: none;
+  border-radius: 25px;
+}
+#increment {
+  background: rgb(153, 240, 153);
+  margin: 2rem;
+  padding: 0.5rem;
+}
+#decrement {
+  background: rgb(231, 205, 205);
+  margin: 2rem;
+  padding: 0.5rem;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  font-weight: bold;
+}
